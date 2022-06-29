@@ -1,0 +1,121 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(250, 249, 249);
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 500px;
+}
+
+.container-satu {
+    max-width: 700px;
+    margin: 50px auto;
+    background-color: rgb(250, 249, 249);
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+
+.kolom-utama {
+    flex: 1;
+    order: 2;
+    width: 30%;
+}
+
+.gambar {
+    flex: 1;
+    order: 1;
+}
+
+.container-dua {
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 20px;
+    padding-left: 20px;
+    
+}
+
+.experience {
+    background-color: #fce1d8;
+    border-radius: 40px 0px 40px 0px;
+    padding-left: 20px;
+    padding-right: 60px;
+    width: 70%;
+}
+
+.container-satu img {
+    border-radius: 40px 0px 40px 0px;
+}
+
+.kolom-utama p{
+    font-size: 16px;
+}
+
+.kolom-utama h1{
+    font-size: 55px;
+}
+.kolom-utama p {
+    font-size: 21px;
+}
+.education p {
+    font-size: 17px;
+}
+
+.contact p {
+    font-size: 16px;
+}
+
+p {
+    font-size: 22px;
+}
+
+.education {
+    background-color: #ecd5e3;
+    line-height: 1.6;
+    border-radius: 40px 0px 40px 0px;
+    width: 30%;
+    padding-left: 20px;
+    transform: scale(1.2);
+    line-height: 0.9;
+}
+
+.contact {
+    background-color: #cecbd6;
+    line-height: 0.9;
+    border-radius: 40px 0px 40px 0px;
+    width: 40%;
+    padding-left: 20px;
+    transform: scale(1.3);
+}
+
+.skills {
+    background-color: #cae9e0;
+    border-radius: 40px 0px 40px 0px;
+    padding-left: 50px;
+    width: 70%;
+}
+
+.container-tiga {
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 20px;
+    padding-left: 20px;
+}
+
+@media  all and ( min-width: 600px ) {
+    .container-dua {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .container-tiga {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .container-satu {
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
